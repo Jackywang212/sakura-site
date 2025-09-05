@@ -1,44 +1,123 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>和善桜株式会社 | 国際貿易代行</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>和善桜株式会社｜Wazen Sakura Co., Ltd.</title>
+  <meta name="description" content="和善桜株式会社（総合貿易）。連絡先：電話 048-299-7663 / WeChat qianyelan5721 / メール wazenou01@gmail.com">
+  <style>
+    :root{
+      --bg:#0f172a;      /* 深色背景 */
+      --card:#111827;
+      --text:#e5e7eb;
+      --muted:#94a3b8;
+      --accent:#f472b6;  /* さくら色 */
+      --border:#1f2937;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:linear-gradient(180deg,#0f172a,#020617);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,"Noto Sans JP",sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:960px;margin:0 auto;padding:28px 16px 64px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:28px 22px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:14px}
+    .logo{width:56px;height:56px;border-radius:14px;background:radial-gradient(circle at 30% 30%,#fce7f3,#fb7185 45%,#be185d);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;letter-spacing:.08em}
+    h1{margin:0;font-size:26px}
+    .tag{display:inline-block;margin-top:6px;color:var(--muted);font-size:14px}
+    .grid{display:grid;gap:16px;margin-top:18px}
+    @media(min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+    section{padding:18px;border:1px solid var(--border);border-radius:14px;background:rgba(255,255,255,0.02)}
+h2{margin:0 0 10px;font-size:18px}
+    .kv{font-size:15px;color:var(--muted)}
+    .list{margin:8px 0 0;padding:0;list-style:none}
+    .list li{padding:6px 0;border-bottom:1px dashed var(--border)}
+    .list li:last-child{border-bottom:none}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:#fff;color:#111;font-weight:600;border:0}
+    .btn.outline{background:transparent;color:var(--text);border:1px solid var(--border)}
+    footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+    code{background:#0b1220;border:1px solid var(--border);padding:2px 6px;border-radius:6px}
+  </style>
+
+  <!-- 構造化データ（検索用）。url は実際の公開 URL に差し替えてください。 -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"和善桜株式会社",
+    "alternateName":"Wazen Sakura Co., Ltd.",
+    "foundingDate":"2023-08",
+    "address":{
+      "@type":"PostalAddress",
+      "addressCountry":"JP",
+      "addressRegion":"埼玉県",
+      "addressLocality":"川口市西川口一丁目35-13-202 スカイコート第3"
+    },
+    "telephone":"+81-48-299-7663",
+    "email":"wazenou01@gmail.com",
+    "sameAs":[]
+  }
+  </script>
 </head>
 <body>
-    <header>
-        <div class="logo">和善桜株式会社</div>
-        <nav>
-            <ul>
-                <li><a href="#">ホーム</a></li>
-                <li><a href="#">会社概要</a></li>
-                <li><a href="#">サービス</a></li>
-                <li><a href="#">取引の流れ</a></li>
-                <li><a href="#">お問い合わせ</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="logo">桜</div>
+        <div>
+          <h1>和善桜株式会社</h1>
+          <div class="tag">Wazen Sakura Co., Ltd.｜総合貿易・仕入れ・輸出入サポート</div>
+        </div>
+      </header>
 
-    <section class="hero" data-aos="fade-up">
-        <h1>グローバルビジネスを、もっとスムーズに。</h1>
-        <p>和善桜株式会社は国際貿易・仕入れ代行のプロフェッショナルです。</p>
-    </section>
+      <p class="kv">
+        普通の貿易会社のシンプルな案内ページです。<br>
+        連絡は以下の方法からお気軽にどうぞ。
+      </p>
 
-    <section class="about" data-aos="fade-right">
-        <h2>会社概要</h2>
-        <p>和善桜株式会社は、日本と世界をつなぐ貿易パートナーとして、お客様のニーズに合ったサービスを提供しております。</p>
-    </section>
+      <div class="grid">
+        <section>
+          <h2>会社概要</h2>
+          <ul class="list">
+            <li><strong>会社名：</strong>和善桜株式会社</li>
+            <li><strong>設立：</strong>令和5年8月</li>
+            <li><strong>所在地：</strong>埼玉県川口市西川口一丁目35-13-202 スカイコート第3</li>
+          </ul>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 和善桜株式会社. All rights reserved.</p>
-    </footer>
+        <section>
+          <h2>連絡先</h2>
+          <ul class="list">
+            <li><strong>電話：</strong><a href="tel:048-299-7663">048-299-7663</a></li>
+            <li><strong>メール：</strong><a href="mailto:wazenou01@gmail.com">wazenou01@gmail.com</a></li>
+            <li><strong>WeChat：</strong><code>qianyelan5721</code></li>
+          </ul>
+          <div class="cta">
+            <a class="btn" href="mailto:wazenou01@gmail.com">メールで問い合わせる</a>
+            <a class="btn outline" href="tel:048-299-7663">電話する</a>
+              </div>
+        </section>
+      </div>
 
-    <script>
-        AOS.init();
-    </script>
+      <!-- ↓ 必要なら後で自由に編集してください（ダミーの説明） -->
+      <section style="margin-top:16px">
+        <h2>事業内容（必要に応じて編集）</h2>
+        <ul class="list">
+          <li>日用雑貨・化粧品・食品等の調達と輸出入</li>
+          <li>OEM・ODM 相談、通関/物流手配</li>
+          <li>EC運営・卸販売サポート</li>
+        </ul>
+      </section>
+
+      <footer>
+        © <span id="y"></span> 和善桜株式会社 — All rights reserved.
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // フッターの年を自動更新
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
